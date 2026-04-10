@@ -1,0 +1,31 @@
+{
+    "name": "vicistack/vicidial-api-integration",
+    "description": "VICIdial API Guide: Non-Agent API & Agent API With Working Code Examples",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "vicidial",
+        "asterisk",
+        "call-center",
+        "voip",
+        "predictive-dialer",
+        "vicidial",
+        "api",
+        "integration"
+    ],
+    "homepage": "https://vicistack.com/blog/vicidial-api-integration/",
+    "authors": [
+        {
+            "name": "ViciStack",
+            "homepage": "https://vicistack.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "ViciStack\\VicidialApiIntegration\\": "src/"
+        }
+    }
+}
